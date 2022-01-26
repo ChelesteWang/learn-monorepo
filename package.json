@@ -1,0 +1,23 @@
+{
+  "name": "learn-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:a": "pnpm dev --filer package-a",
+    "dev:b": "pnpm dev --filer package-b",
+    "dev:c": "pnpm dev --filer package-c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChelesteWang/learn-monorepo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChelesteWang/learn-monorepo/issues"
+  },
+  "homepage": "https://github.com/ChelesteWang/learn-monorepo#readme"
+}
