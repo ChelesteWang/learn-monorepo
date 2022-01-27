@@ -8,7 +8,9 @@
     "dev:a": "pnpm run dev --filer package-a",
     "dev:b": "pnpm run dev --filer package-b",
     "dev:c": "pnpm run dev --filer package-c",
-    "build:all": "pnpm run build -r"
+    "build:all": "pnpm run build -r",
+    "version": "changeset version",
+    "publish": "changeset publish"
   },
   "repository": {
     "type": "git",
