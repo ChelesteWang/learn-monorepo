@@ -12,7 +12,10 @@ importers:
     specifiers: {}
 
   packages/package-b:
-    specifiers: {}
+    specifiers:
+      '@yuqing521/package-a': workspace:^1.0.2
+    dependencies:
+      '@yuqing521/package-a': link:../package-a
 
   packages/package-c:
     specifiers: {}

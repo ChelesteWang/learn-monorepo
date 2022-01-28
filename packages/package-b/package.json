@@ -1,6 +1,6 @@
 {
   "name": "@yuqing521/package-b",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,5 +13,8 @@
   "license": "ISC",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@yuqing521/package-a": "workspace:^1.0.2"
   }
 }
