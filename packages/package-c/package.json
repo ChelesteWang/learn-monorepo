@@ -13,5 +13,8 @@
   "license": "ISC",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@yuqing521/package-a": "workspace:^1.0.2"
   }
 }
