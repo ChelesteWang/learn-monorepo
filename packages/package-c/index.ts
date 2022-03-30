@@ -1,3 +1,5 @@
 function c() {
-  console.log(c);
+  console.log('ccccc');
 }
+
+c()

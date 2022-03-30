@@ -1,13 +1,11 @@
 {
   "name": "learn-monorepo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev:a": "pnpm run dev --filer package-a",
-    "dev:b": "pnpm run dev --filer package-b",
-    "dev:c": "pnpm run dev --filer package-c",
+    "dev:a": "pnpm run dev --filter @yuqing521/package-a",
+    "dev:b": "pnpm run dev --filter @yuqing521/package-b",
+    "dev:c": "pnpm run dev --filter @yuqing521/package-c",
     "build:all": "pnpm run build -r",
     "version": "changeset version",
     "publish": "changeset publish"
