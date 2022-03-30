@@ -2,10 +2,10 @@
   "name": "@yuqing521/package-b",
   "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node index.js",
+    "dev": "node index.ts",
     "build": "tsc"
   },
   "keywords": [],

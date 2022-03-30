@@ -3,3 +3,5 @@ function a() {
   console.log(version);
   console.log(a);
 }
+
+a()
